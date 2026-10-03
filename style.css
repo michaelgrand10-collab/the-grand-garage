@@ -107,7 +107,7 @@ strong{color:#2A231C}
 .card h3 a{color:var(--green);text-decoration:none}
 .card h3 a:hover{color:var(--walnut-2);text-decoration:underline;text-decoration-color:var(--brass)}
 .card p{color:var(--muted);margin:.4em 0 .9em}
-.card p.cta{margin:auto 0 0;padding-top:6px}
+.card p.cta{margin:auto 0 0;padding-top:6px;min-width:0;max-width:100%}
 .card ul{color:var(--muted)}
 
 /* Primary button (affiliate CTA) */
@@ -115,7 +115,8 @@ strong{color:#2A231C}
   display:inline-flex;align-items:center;gap:.4em;
   background:var(--green);color:#FBF6EC;text-decoration:none;
   font-weight:600;font-size:.92rem;letter-spacing:.01em;
-  padding:.6em 1em;border-radius:10px;border:1px solid var(--green);white-space:nowrap;
+  padding:.6em 1em;border-radius:10px;border:1px solid var(--green);white-space:normal;max-width:100%;
+  justify-content:center;text-align:center;
   box-shadow:0 1px 0 rgba(255,255,255,.08) inset,0 2px 6px rgba(31,61,43,.25);
   transition:background-color .2s,border-color .2s,box-shadow .2s,transform .2s;
 }
