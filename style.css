@@ -300,3 +300,5 @@ section.note.local ul{margin:.4em 0 0}
 .kits-banner .btn{background:var(--brass);color:#1E1A14;border-color:#8C6C3D;font-size:1rem;padding:.8em 1.3em}
 .kits-banner .btn:hover{background:var(--green);color:#fff}
 @media (max-width:720px){.kits-banner{grid-template-columns:1fr;padding:24px 20px}.tier-total{font-size:1.7rem}}
+
+.tier-summary{font-family:var(--serif);font-weight:700;font-size:1.15rem;line-height:1.3;color:var(--green)!important;margin:.15em 0 .35em!important}
