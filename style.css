@@ -302,3 +302,10 @@ section.note.local ul{margin:.4em 0 0}
 @media (max-width:720px){.kits-banner{grid-template-columns:1fr;padding:24px 20px}.tier-total{font-size:1.7rem}}
 
 .tier-summary{font-family:var(--serif);font-weight:700;font-size:1.15rem;line-height:1.3;color:var(--green)!important;margin:.15em 0 .35em!important}
+.pbdd-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:18px 0}
+.pbdd-facts .note{margin:0}
+.pbdd-banner p:last-child{display:flex;flex-wrap:wrap;gap:10px}
+.pbdd-banner .btn.btn-ghost{background:transparent;color:#FBF6EC;border-color:rgba(217,190,134,.7)}
+.pbdd-banner .btn.btn-ghost:hover{background:var(--green);color:#fff}
+/* Longer "See today's price on Amazon" CTA labels wrap inside narrow cards */
+.card p.cta a,.card .btn{white-space:normal;text-align:center;justify-content:center;max-width:100%;box-sizing:border-box;line-height:1.3}
