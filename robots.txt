@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://michaelgrand10-collab.github.io/the-grand-garage/sitemap.xml
