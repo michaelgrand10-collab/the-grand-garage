@@ -342,3 +342,56 @@ fieldset.budget legend{padding:0 6px;background:var(--sand);border-radius:6px}
 .custom-kit-cta{margin:36px 0 30px;border-color:var(--green)}
 .custom-kit-cta .kicker{color:var(--green)}
 @media (max-width:720px){.form-grid{grid-template-columns:1fr}.kit-form{padding:24px 18px 18px}}
+
+/* ---------- Shop by Era (Oct 2026) ---------- */
+.era-chips{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0}
+.era-chips a{font-size:.88rem;font-weight:600;color:#FBF6EC;text-decoration:none;padding:5px 12px;border-radius:999px;border:1px solid rgba(217,190,134,.55);background:rgba(255,255,255,.06)}
+.era-chips a:hover{background:rgba(217,190,134,.22);color:#fff}
+.era-band{position:relative;overflow:hidden;margin:46px 0 18px;padding:30px 30px 26px;border-radius:20px;box-shadow:var(--shadow-lift);color:#fff}
+.era-band .era-kicker{margin:0;font:700 .78rem/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;opacity:.92}
+.era-band h1,.era-band h2{margin:.18em 0 .2em;font-size:clamp(2rem,6vw,3.3rem);line-height:1.05;color:inherit}
+.era-band h1::after,.era-band h2::after{display:none}
+.era-band h2 a{color:inherit;text-decoration:none}
+.era-band .era-intro{margin:.2em 0 0;max-width:720px;font-size:1.05rem;color:inherit;opacity:.95}
+.era-band .era-cta{margin:16px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.era-band .era-cta a{display:inline-block;font-weight:700;font-size:.92rem;text-decoration:none;padding:.55em 1em;border-radius:999px;background:rgba(255,255,255,.92);color:#1E1A14;border:1px solid rgba(0,0,0,.15)}
+.era-band .era-cta a:hover{background:#fff}
+/* 50s: diner checkerboard + chrome script */
+.era-50s{background:linear-gradient(180deg,rgba(176,25,35,.0) 0 calc(100% - 26px),transparent 0),repeating-conic-gradient(#111 0 25%,#fff 0 50%) bottom/26px 26px repeat-x,linear-gradient(135deg,#C8102E 0%,#9E0B22 100%);padding-bottom:52px}
+.era-50s h1,.era-50s h2{font-family:"Pacifico",cursive;font-weight:400;color:#FFF6E0;text-shadow:3px 3px 0 #2BB3B1,6px 6px 0 rgba(0,0,0,.25)}
+/* 60s: groovy pop-art */
+.era-60s{background:radial-gradient(circle at 85% 20%,#FFD23F 0 9%,transparent 9.5%),radial-gradient(circle at 92% 70%,#3BCEAC 0 6%,transparent 6.5%),linear-gradient(135deg,#EE4266 0%,#9B5DE5 60%,#540D6E 100%)}
+.era-60s h1,.era-60s h2{font-family:"Righteous",sans-serif;font-weight:400;color:#FFD23F;text-shadow:3px 3px 0 #540D6E}
+/* 70s: sunset stripes */
+.era-70s{color:#3B2412;background:linear-gradient(180deg,#F6E3B4 0 64%,#E9A23B 64% 72%,#D9682B 72% 80%,#B5432A 80% 88%,#6B3A1F 88% 100%)}
+.era-70s h1,.era-70s h2{font-family:"Shrikhand",cursive;font-weight:400;color:#B5432A;text-shadow:3px 3px 0 #E9A23B}
+.era-70s .era-cta a{background:#3B2412;color:#F6E3B4}
+/* 80s: neon synthwave grid */
+.era-80s{background:linear-gradient(transparent 0 0),repeating-linear-gradient(90deg,rgba(255,0,200,.35) 0 1px,transparent 1px 40px) bottom/100% 45% no-repeat,linear-gradient(180deg,#120024 0%,#2B0B52 60%,#5A0F6E 100%)}
+.era-80s h1,.era-80s h2{font-family:"Monoton",cursive;font-weight:400;letter-spacing:.04em;color:#FF4FD8;text-shadow:0 0 8px #FF4FD8,0 0 22px #00E5FF}
+.era-80s .era-kicker{color:#00E5FF}
+/* 90s: memphis squiggle */
+.era-90s{color:#1B1B3A;background:radial-gradient(circle at 12% 30%,#FF6B6B 0 4%,transparent 4.5%),radial-gradient(circle at 88% 25%,#4ECDC4 0 6%,transparent 6.5%),repeating-linear-gradient(45deg,rgba(27,27,58,.07) 0 6px,transparent 6px 18px),linear-gradient(135deg,#FFE66D 0%,#FFB4A2 100%);border:3px solid #1B1B3A}
+.era-90s h1,.era-90s h2{font-family:"Bungee",sans-serif;font-weight:400;color:#7B2CBF;text-shadow:3px 3px 0 #4ECDC4}
+.era-90s .era-cta a{background:#1B1B3A;color:#FFE66D}
+/* 2000s: Y2K chrome */
+.era-00s{color:#0B1E3F;background:radial-gradient(120% 80% at 20% 0%,#FFFFFF 0%,rgba(255,255,255,0) 55%),linear-gradient(135deg,#C9D6EA 0%,#9DB4D8 40%,#E6C7F2 75%,#B8E1F2 100%);border:2px solid #fff}
+.era-00s h1,.era-00s h2{font-family:"Orbitron",sans-serif;font-weight:900;letter-spacing:.06em;background:linear-gradient(180deg,#4A6FA5 0%,#0B1E3F 55%,#7A8CA8 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+.era-00s .era-cta a{background:#0B1E3F;color:#fff}
+/* Today: clean modern */
+.era-now{background:linear-gradient(135deg,var(--green) 0%,var(--navy) 100%);border:2px solid var(--brass)}
+.era-now h1,.era-now h2{font-family:var(--sans);font-weight:800;letter-spacing:-.02em;color:#FBF6EC}
+.era-now .era-kicker{color:var(--brass-light)}
+.era-sub{font-size:1.45rem;margin:1.7em 0 .3em}
+.outfit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+.outfit-card ol{margin:.3em 0 .6em;padding-left:1.2em;color:var(--muted);font-size:.95rem}
+.outfit-card ol li{margin:.35em 0}
+.outfit-card .role{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--walnut-2);margin-right:.35em}
+.outfit-card .size-note{font-size:.82rem;color:var(--muted);margin:.2em 0 .8em}
+@media (max-width:720px){.era-band{padding:24px 20px 22px}.era-50s{padding-bottom:46px}}
+.era-hero{margin-top:8px}
+.era-switch{margin:4px 0 18px}
+.era-switch a{color:var(--walnut);background:var(--ivory);border-color:var(--tan)}
+.era-switch a:hover{background:var(--sand);color:var(--walnut)}
+.era-switch a[aria-current]{background:var(--green);color:#FBF6EC;border-color:var(--green)}
+.hero .era-chips a{color:#FBF6EC}
