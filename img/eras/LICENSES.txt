@@ -1,0 +1,4 @@
+Lifestyle/category images for Shop by Era product cards.
+Sources: Unsplash License (https://unsplash.com/license) and/or Pexels License (https://www.pexels.com/license/).
+These are category lifestyle photos matching product types — not Amazon product listing images.
+Amazon Creators API credentials were not available on this box; do not rehost Amazon listing photos.

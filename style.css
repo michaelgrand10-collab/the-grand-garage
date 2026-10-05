@@ -395,3 +395,8 @@ fieldset.budget legend{padding:0 6px;background:var(--sand);border-radius:6px}
 .era-switch a:hover{background:var(--sand);color:var(--walnut)}
 .era-switch a[aria-current]{background:var(--green);color:#FBF6EC;border-color:var(--green)}
 .hero .era-chips a{color:#FBF6EC}
+
+/* Era product lifestyle thumbs (Oct 2026 fill) */
+.era-thumb{display:block;margin:0 0 12px;border-radius:10px;overflow:hidden;aspect-ratio:4/3;background:#0f1a14}
+.era-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.card:has(.era-thumb){padding-top:14px}
