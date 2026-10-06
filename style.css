@@ -400,3 +400,17 @@ fieldset.budget legend{padding:0 6px;background:var(--sand);border-radius:6px}
 .era-thumb{display:block;margin:0 0 12px;border-radius:10px;overflow:hidden;aspect-ratio:4/3;background:#0f1a14}
 .era-thumb img{width:100%;height:100%;object-fit:cover;display:block}
 .card:has(.era-thumb){padding-top:14px}
+
+/* DIY build pages: lead photo, side photo, parts/fit tables (Oct 2026) */
+.lead-photo{margin:0 0 18px;border-radius:16px;overflow:hidden;background:#0f1a14;border:1px solid var(--tan);box-shadow:var(--shadow-lift)}
+.lead-photo img{display:block;width:100%;height:auto}
+.lead-photo figcaption,.side-photo figcaption{padding:8px 14px;font-size:.82rem;line-height:1.45;color:var(--muted);background:var(--ivory)}
+.side-photo{float:right;width:min(280px,42%);margin:4px 0 14px 22px;border-radius:12px;overflow:hidden;border:1px solid var(--tan);background:var(--ivory)}
+.side-photo img{display:block;width:100%;height:auto}
+.table-wrap{overflow-x:auto;margin:10px 0 22px;clear:both}
+.parts-table{width:100%;border-collapse:collapse;font-size:.93rem;background:var(--ivory);border:1px solid var(--tan);border-radius:12px}
+.parts-table th,.parts-table td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--tan)}
+.parts-table th{font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--walnut-2);background:var(--sand)}
+.parts-table td a{color:var(--green);font-weight:600}
+@media (max-width:640px){.side-photo{float:none;width:100%;margin:0 0 14px}}
+.clear{clear:both}
