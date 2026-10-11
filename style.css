@@ -420,3 +420,10 @@ fieldset.budget legend{padding:0 6px;background:var(--sand);border-radius:6px}
 .step-photos-grid img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 .step-photos figcaption{padding:8px 14px;font-size:.82rem;line-height:1.45;color:var(--muted)}
 @media (max-width:520px){.step-photos-grid{grid-template-columns:1fr}}
+
+/* ---------- Top 10 Must-Haves pages ---------- */
+.top10-list{list-style:none;padding:0;margin:1.2em 0}
+.top10-item .top10-rank{display:flex;align-items:center;gap:12px;margin:0 0 .5em}
+.top10-item .top10-num{flex:none;display:inline-flex;align-items:center;justify-content:center;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--green);color:var(--brass-light);font-family:var(--serif);font-weight:700;font-size:1.2rem}
+.top10-item .top10-brand{font-family:var(--serif);font-weight:700;font-size:1.35rem;color:var(--walnut);letter-spacing:.02em}
+.top10-item h3{font-size:1.02rem}
