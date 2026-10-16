@@ -427,3 +427,10 @@ fieldset.budget legend{padding:0 6px;background:var(--sand);border-radius:6px}
 .top10-item .top10-num{flex:none;display:inline-flex;align-items:center;justify-content:center;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--green);color:var(--brass-light);font-family:var(--serif);font-weight:700;font-size:1.2rem}
 .top10-item .top10-brand{font-family:var(--serif);font-weight:700;font-size:1.35rem;color:var(--walnut);letter-spacing:.02em}
 .top10-item h3{font-size:1.02rem}
+
+/* Single-product buttons are primary; whole-kit cart buttons are secondary */
+.btn.btn-primary{background:var(--brass);color:#1E1A14;border:2px solid #8C6C3D;font-weight:700;font-size:1.05rem;padding:.85em 1.4em;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.btn.btn-primary:hover{background:var(--green);color:#fff}
+.btn.btn-cart{background:transparent!important;color:inherit;border:1px solid rgba(176,141,87,.7);font-size:.85rem;font-weight:500;padding:.55em 1em;box-shadow:none}
+.pick .kicker{margin:0 0 .3em}
+.faq h3{margin-top:1.2em}
